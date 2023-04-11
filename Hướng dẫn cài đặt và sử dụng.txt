@@ -1,0 +1,15 @@
+Hướng dẫn sử dụng trang web tại localhost
+(Cần có sẵn server local như Xampp và framework Laravel)
+
+Bước 1: Mở chương trình Xampp và start module Apache và MySQL.
+
+Bước 2: Nhấn nút Admin của module MySQL. Ở giao diện PHPMyAdmin, tạo 1 database tên lpshop và import database bằng 
+file lpshop-database.
+
+Bước 3: Copy thư mục LPShop-project vào thự mục htdocs của Xampp.
+
+Bước 4: Mở Command Prompt ở thư mục LPShop-project ở thư mục htdocs của Xampp và ghi cú pháp: php artisan serve
+
+Bước 5: Sau khi server đã chạy. Vào web browser và ghi đường link: localhost:8000. Project sẽ được chạy ở đường url này.
+Để truy cập vào trang Admin, ghi đường link: localhost:8000/admin. Tài khoản admin là dangkienphong555@gmail.com và
+password là kienphong.
